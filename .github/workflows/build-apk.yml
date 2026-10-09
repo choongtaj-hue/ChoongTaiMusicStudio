@@ -28,7 +28,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract source
-        run: unzip -oq ChoongTaiMusicStudio_v2_Source.zip
+        run: unzip -oq ./*.zip
 
       - name: Build APK
         working-directory: ChoongTaiMusicStudio
